@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html>
-<title>Rally in the Valley | Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rally in the Valley | Media Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<!--<link rel="stylesheet" href="css/w3.css"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="img/favicon.ico" />
 
 <head><!-- Javascript imports -->
-<script type="text/javascript" src="js/moreinfo.js"></script>
-<script type="text/javascript" src="js/nav.js"></script>
+	<script type="text/javascript" src="js/moreinfo.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+
+		<link rel="stylesheet" href="assets/jkresponsivegallery.css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="assets/jquery.touchSwipe.min.js"></script>
+
+		<script src="assets/jkresponsivegallery.js">
+
+		/**
+		 * JK Responsive Gallery Script
+		 * Copyright JavaScript Kit (www.javascriptkit.com)     
+		 * Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code       
+		 */
+
+		</script>
+		<script>
+
+			jQuery(function($){ // on DOM load
+
+				$("#group1 > div.rthumbnail").responsivegallery()
+
+			})
+
+		</script>
 </head>
 <!-- CSS imports -->
 <link rel="stylesheet" type="text/css" href="css/page.css">
 <link rel="stylesheet" type="text/css" href="css/mouse.css">
+<link rel="stylesheet" type="text/css" href="css/vidGallery.css">
 <body>
 
 <!-- Navbar -->
@@ -55,8 +81,8 @@
 
 <!-- Header -->
 <header class="w3-container w3-red w3-center w3-padding-128">
-  <h1 class="w3-margin w3-jumbo">Welcome to Rally in the Valley</h1>
-  <p class="w3-xlarge">Event for 2017</p>
+  <h1 class="w3-margin w3-jumbo">Rally in the Valley</h1>
+  <p class="w3-xlarge">Media Gallery</p>
   <button onclick="learnMore()" class="w3-btn w3-padding-16 w3-large w3-margin-top">Learn More</button>
 </header>
 <!-- First Grid -->
@@ -64,27 +90,166 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
 
   <div class="w3-content">
+	
+	<!-- Start OF VIDEO GALLERY -->
+	 <header>
+      <h1> Video Gallery</h1>
+    </header>
+	<br><br>
+	<div id="group1">
+				<div class="rthumbnail">
+				<a href="https://www.youtube.com/watch?v=uoC2ZGRI8a8">
+				<img src="thumbnails/roboticsHistory.jpg"></a>
+				<div class="rcaption">A Brief History of Robotics</div>
+				</div>
+				
+				<div class="rthumbnail">
+				<a href="https://www.youtube.com/watch?v=voNBzuI7IJ4">
+				<img border="1" src="thumbnails/robotCat.jpg"></a>
+				<div class="rcaption">8 Advanced Robots Animal You NEED To See</div>
+				</div>
+				<div class="rthumbnail">
+				<a href="https://www.youtube.com/watch?v=d3MBTT10pxk">
+				<img border="2" src="thumbnails/roboticsIntro.jpg"></a>
+				<div class="rcaption">An Intro to Robotics [sparkfun]</div>
+				</div>
 
-    <div class="w3-twothird">
 
-      <h1>Get Involved Today</h1>
+	</div>
+			
+	<div id="group1">
+				<div class="rthumbnail">
+					<a href="https://www.youtube.com/watch?v=8P9geWwi9e0">
+					<img border="2" src="thumbnails/theVergeRobotics.jpg"></a>
+					<div class="rcaption">The 2015 DARPA Robotics Challenge Finals</div>
+				</div>
+				
+				<div class="rthumbnail">
+					<a href="https://www.youtube.com/watch?v=sGGrLQy3cIA">
+					<img border="2" src="thumbnails/robotCar.jpg"></a>
+					<div class="rcaption">Custom Robotics [Inspector Bots]</div>
+				</div>
+				
+				<div class="rthumbnail">
+					<a href="https://www.youtube.com/watch?v=-Jsvg6u9CYI">
+					<img border="2" src="thumbnails/robotProgramming.jpg"></a>
+					<div class="rcaption">Robot Programming</div>
+				</div>
+	</div>
+			
+		<div id="group1">
+
+			<div class="rthumbnail">
+				<a href="https://www.youtube.com/watch?v=xY-eUd0XuOs">
+				<img border="2" src="thumbnails/asimov.jpg"></a>
+				<div class="rcaption">Isaac Asimov's Three Laws of Robotics?</div>
+			</div>
+			
+			<div class="rthumbnail">
+				<a href="https://www.youtube.com/watch?v=wB5O-5I_ZeQ">
+				<img border="2" src="thumbnails/robotArm.jpg"></a>
+				<div class="rcaption">5 Best Future New Technology Latest Robotics 2017</div>
+			</div>
+			<div class="rthumbnail">
+				<a href="https://www.youtube.com/watch?v=kr05reBxVRs">
+				<img border="2" src="thumbnails/pepperRobot.jpg"></a>
+				<div class="rcaption">Meet Pepper the Robot | Softbank Robotics</div>
+				</div>
+			</div>
+			<!-- END OF VIDEO GALLERY -->
+    
+	<!-- BEGIN IMAGE SLIDE -->
+	<!-- CSS FILES -->
+		<link href="css/demo.css" media="screen, projection" rel="stylesheet" type="text/css">
+		<link href="css/component.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <div class="container">
+   
+
+	<br><br>
+    <header>
+      <h1> Image Gallery</h1>
+    </header>
+	
+    <article id="cc-slider">
+      <input checked="checked" name="cc-slider" id="slide1" type="radio">
+      <input name="cc-slider" id="slide2" type="radio">
+      <input name="cc-slider" id="slide3" type="radio">
+      <input name="cc-slider" id="slide4" type="radio">
+      <input name="cc-slider" id="slide5" type="radio">
+      
+      <div id="cc-slides">
+        <div id="overflow">
+          <div class="inner">
+            <article>
+              <div class="cctooltip">
+                 <!-- <h3>Amazing / Photoshop / Photography</h3>
+                 <h4>By <a href="#">codeconvey</a></h4>-->
+			  </div>
+              
+			<img src="images/img1.jpg"> 
+            </article>
+			
+            <article>
+              <div class="cctooltip">
+              </div>
+              <img src="images/img2.jpg">
+			</article>
+			  
+            <article>
+              <div class="cctooltip">
+              </div>
+              <img src="images/img3.jpg"> 
+            </article>
+			
+            <article>
+              <div class="cctooltip">
+              </div>
+              <img src="images/img4.jpg"> 
+            </article>
+			
+            <article>
+              <div class="cctooltip">
+              </div>
+              <img src="images/img5.jpg"> 
+            </article>
+			
+          </div>
+        </div>
+      </div>
+      
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+        <label for="slide5"></label>
+      </div>
+    </article>
+    
+  </div>
+  
+<!-- END IMAGE SLIDE -->
+
+	
+	<div class="w3-twothird">
+      <!-- <h1>Get Involved Today</h1>
 
       <p class="w3-text-grey">Rally in the Valley is a fun event of all skill levels where contestants compete face to face with others in hopes of beating their robot. Prizes will be given out to qualifying participants. If you are interested in participating in this event join us, admission is free.</p>
-
+	-->
     </div>
   <div class="w3-third w3-center">
-
+<!--
       <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
-
+-->
     </div>
 
   </div>
 
 </div>
 
+<!--
 
-
-<!-- Second Grid -->
+<!-- Second Grid
 
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
 
@@ -99,7 +264,7 @@
 
 
     <div class="w3-twothird">
-
+<!--
       <h1>Lorem Ipsum</h1>
 
       <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
@@ -124,6 +289,6 @@
 
     <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
 
-</div>
+</div> -->
 </body>
 </html>
